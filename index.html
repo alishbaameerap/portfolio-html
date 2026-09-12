@@ -1,41 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alishba Ameerap | Portfolio</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+  body{background:#0f172a;color:white;line-height:1.6}
+  header{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#667eea,#764ba2)}
+  header h1{font-size:3rem;margin-bottom:10px}
+  header p{font-size:1.2rem;opacity:0.9}
+  .btn{display:inline-block;margin-top:20px;padding:12px 25px;background:white;color:#764ba2;border-radius:30px;text-decoration:none;font-weight:bold}
+  section{max-width:900px;margin:40px auto;padding:0 20px}
+  h2{font-size:2rem;margin-bottom:20px;color:#a78bfa;border-left:4px solid #a78bfa;padding-left:10px}
+  .card{background:#1e293b;padding:25px;border-radius:15px;margin-bottom:20px}
+  .skills{display:flex;flex-wrap:wrap;gap:10px}
+  .skill{background:#334155;padding:8px 15px;border-radius:20px}
+  a{color:#a78bfa}
+  footer{text-align:center;padding:30px;opacity:0.6}
+</style>
 </head>
 <body>
 
-    <header>
-        <h1>Alishba Ameerap</h1>
-        <p>Data Science Student | Web Developer</p>
-    </header>
+<header>
+  <h1>Alishba Ameerap</h1>
+  <p>Data Science Student | Web Developer</p>
+  <a class="btn" href="mailto:yourmail@gmail.com">Contact Me</a>
+</header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I am passionate about Data Science and Web Development.</p>
-    </section>
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am passionate about Data Science and Web Development. I love building beautiful websites and analyzing data to find meaningful insights. Currently learning and growing in tech!</p>
+  </div>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-        </ul>
-    </section>
+  <h2>Skills</h2>
+  <div class="card">
+    <div class="skills">
+      <span class="skill">Python</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Data Analysis</span>
+      <span class="skill">Git & GitHub</span>
+    </div>
+  </div>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <p>Portfolio Website</p>
-        <p>Data Analysis Project</p>
-    </section>
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>🌐 Portfolio Website</h3>
+    <p>My personal portfolio built with HTML, CSS and hosted on GitHub Pages.</p>
+  </div>
+  <div class="card">
+    <h3>📊 Data Analysis Project</h3>
+    <p>Analyzed datasets using Python and SQL to extract insights and visualizations.</p>
+  </div>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: yourmail@gmail.com</p>
-    </section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/alishbaameerap" target="_blank">alishbaameerap</a></p>
+    <p>Location: Kerala, India</p>
+  </div>
+</section>
+
+<footer>
+  <p>Made with ❤️ by Alishba Ameerap | 2025</p>
+</footer>
 
 </body>
 </html>

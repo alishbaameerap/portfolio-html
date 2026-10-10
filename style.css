@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 30px 10px;
+}
+
+.game-container {
+    max-width: 650px;
+    margin: auto;
+}
+
+#game {
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border: 2px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+#dino {
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    font-size: 40px;
+}
+
+#cactus {
+    position: absolute;
+    right: -40px;
+    bottom: 10px;
+    font-size: 35px;
+}
+
+.jump {
+    animation: jump 0.6s ease;
+}
+
+@keyframes jump {
+    0%, 100% { bottom: 10px; }
+    50% { bottom: 100px; }
+}
+
+button {
+    padding: 10px 20px;
+    background: #228b22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #006400;
+}
